@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.popup-image {
+  width: 215px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+.close-button {
+  border: 0;
+  background-color: transparent;
+  color: #231f20;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 16px;
+}
